@@ -1,0 +1,881 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+ 
+ transition: 0.5s;
+}
+*::-webkit-scrollbar{
+    display: none;
+}
+.effect{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+   
+}
+
+.all-items{
+    width: 100%;
+    overflow-x: hidden;
+
+  
+}
+.effects{
+    width: 5%;
+    height: 100%;
+   overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    
+}
+.effects i{
+    font-size: 28px;
+    transition: 0.1s;
+    text-align: center;
+}
+#moon{
+    transform: translateY(-80px);
+    background: linear-gradient(45deg, rgb(0, 132, 255),white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    cursor: pointer;
+   
+}
+#sun{
+    transform: translateY(-20px);
+    font-size: 40px;
+    background: linear-gradient(45deg, orange,red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer
+}
+.boxes1{
+    height: 673px;
+    width: 100%;
+    
+    display: flex;
+    justify-content:space-around;
+    
+
+}
+.box1{
+    width: 1241px;
+    height: 100%;
+    
+}
+.header1{
+    width: 
+    80px;
+    height: 36px;
+    line-height:36px ;
+    border-bottom: 2px solid rgba(115, 143, 255, 1);
+  
+    text-align: center;
+    font-size: 24px;
+    font-family: poppins;
+    font-weight:700;
+}
+.cards1{
+    width: 100%;
+    height: 551px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+.card{
+    height: 511px;
+    width: 237px;
+    margin-left: .5vw;
+    box-shadow: rgba(50, 50, 93, 0.141) 0px 1px 3px 0.25px, rgba(0, 0, 0, 0.114)0px 0.65px 3px 0.2px ;
+    background-color: 
+    rgba(0, 0, 0, 0.05);
+}
+.card1{
+    height: 511px;
+    width: 237px;
+    background-size: cover;
+    overflow: hidden;
+    box-shadow: rgba(50, 50, 93, 0.141) 0px 1px 3px 0.25px, rgba(0, 0, 0, 0.114)0px 0.65px 3px 0.2px ;
+    background-color: 
+    rgba(0, 0, 0, 0.05);
+}
+.image-body{
+    width: 100%;
+    height: 400.31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.im1{
+    height: 385.31px;
+    width: 217px;
+
+  
+    background-position: center;
+    background-size: cover;
+}
+.dis-name{
+    width: 186px;
+    height: 21px;
+
+}
+.dis-name p{
+    font-family: inter;
+    
+font-size: 
+17px;
+font-weight: 500;
+line-height: 20.57px;
+}
+.details .de{
+    width: 217px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(247, 247, 248, 1);
+}
+.details{
+    width: 100%;
+    height: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.para{
+    width: 167.07px;
+    height: 31px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.h-para{
+    width: 70.45px;
+    height: 9px;
+    text-align: center;
+    color: rgba(82, 89, 101, 1);
+    font-size: 12px;
+font-weight: 400;
+    line-height: 
+    14.52px;
+  
+
+}
+.p1{
+    width: 70.45px;
+    height: 31px;
+    display: grid;
+    justify-content: center;
+   
+    align-items: center;
+}
+.su-para{
+    width: 67.43px;
+    height: 10px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 16.94px;
+
+}
+.su-para2{
+    width: 74px;
+    height: 10px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 16.94px;
+
+}
+
+
+.section1{
+    width: 474px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2{
+    width: 474px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.section3{
+    width: 237px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+button{
+    width: 124px;
+    height: 46px;
+font-family: inter;
+    border-radius: 3px;
+    gap: 5px;
+    font-size: 14px;
+    color: white;
+    background-color: rgba(44, 156, 240, 1);
+    border: none;
+    text-transform: capitalize;
+}
+
+.bu1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.add-body{
+    width: 100%;
+    height: 228px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-img{
+    width: 218.4px;
+    height: 218px;
+    background-position: center;
+    background-size: cover;
+}
+.add-title p{
+    width: 188.21px;
+    line-height: 24.2px;
+    height: 100%;
+}
+.ad{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.ad div{
+    width: 48.09px;
+    height: 100%;
+    background-color: black;
+    color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.add-title{
+    width: 100%;
+    height: 24px;
+    font-weight: 600;
+    font-family: inter;
+    font-size: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+}
+.add-para{
+    width: 100%;
+    height: 171px;
+line-height: 19px;
+display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.add-para p{
+    width: 188.34px;
+    font-size: 12.8px;
+    font-weight: 400;
+    
+}
+
+ .ticket-box{
+    width: 100%;
+    height: 918px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+ }
+ .ticket-card{
+    width: 1240px;
+    height: 100%;
+    background: linear-gradient(180deg, #F9F8FF 0%, #F3F9FF 100%);
+display: flex;
+justify-content: center;
+align-items: center;
+
+   
+ }
+ .ticket-items{
+    width: 100%;
+    height: 799px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    
+  
+ }
+ .ticket-container{
+    width: 1085.75px ;
+    height: 100%;
+   
+ }
+ .tiket-header{
+    width: 100%;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+  .tiket-header p{
+    width: 505px;
+    height: 100%;
+    text-align: center;
+    font-family: poppins;
+    font-size: 50px;
+    line-height: 52.5px;
+    color: rgba(0, 0, 0, 1);
+font-weight: 700;
+  }
+  .tiket-sub{
+    width: 100%;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+ }
+ .tiket-sub p{
+    width: 917px;
+    height: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-family: inter;
+    line-height: 22.65px;
+    color: rgba(0, 0, 0, 1);
+   
+ }
+.tikets-box{
+    width: 100%;
+    height: 680px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 20px;
+  
+}
+.tikets{
+    width: 1085.75px;
+    height: 625px;
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.tikets-scroller{
+    width: 36.75px;
+    height: 49px;
+    border: 1px solid rgba(44, 156, 240, 1);
+    color: rgba(44, 156, 240, 1);
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.tikets-scroller i{
+    font-size: 40px;
+}
+
+.ticket{
+    width: 850px;
+    height: 625px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.ticket-card1{
+    position: relative;
+    width: 257px;
+    height: 100%;
+    box-shadow: rgba(50, 50, 93, 0.141) 0px 1px 3px 0.25px, rgba(0, 0, 0, 0.114)0px 0.65px 3px 0.2px ;
+}
+.ticket-card1:before,
+.ticket-card1:after {
+  content: "";
+  display: block;
+  width: 1.8rem;
+  height: 1.8rem;
+  position: absolute;
+  border: none;
+  z-index: 20;
+
+    background:var(--after-background-color, linear-gradient(180deg, #F9F8FF 0%, #F3F9FF 100%));
+}
+.ticket-card1:before {
+    bottom: 31%;
+    left: 0;
+    rotate: -90deg;
+    border-radius: 50%;
+    margin-left: -20px;
+    box-shadow: rgba(50, 50, 93, 0.141) 0px 2px 2px 0px;
+  }
+  
+  .ticket-card1:after {
+    bottom: 31%;
+    right: 0;
+margin-right: -20px;
+    border-radius: 50%;
+  
+    box-shadow: rgba(50, 50, 93, 0.141) 0px 2px 2px 0px;
+    rotate: 90deg;
+  
+  }
+  .ticket-image{
+width: 100%;
+height: 420px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+  }
+  .ticket-body1{
+    width: 226.1px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px dotted #ccc; 
+    
+  }
+.ticket-icon{
+    width: 100%;
+    height: 401.25px;
+    background-size: cover;
+    background-position: center;
+}
+.ticket-dis{
+    width: 100%;
+    height:27px;
+    display: flex;
+    justify-content: center;
+
+}
+.ticket-con{
+    width: 213px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.ticket-header{
+    width: 100%;
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ticket-header {
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26.52px;
+    text-align: center;
+    width: 213px;
+    height: 27px;
+    top: 188.17px;
+    left: -169px;
+    gap: 0px;
+    opacity: 0px;
+        
+}
+.play-details{
+    width: 100%;
+    height: 61.66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    position:relative;
+}
+.play-dis{
+    width: 213px;
+    height: 100%;
+ 
+}  
+.time{
+    width: Hug (152.22px)px;
+    height: Fixed (12.66px)px;
+    top: 227.17px;
+    left: -139px;
+    gap: 5.3px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+}
+.time p{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    
+    
+    
+}
+.address{
+    width: 100%;
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.address-para{
+    width: 213px;
+    height: 31px;
+    top: 257.83px;
+    left: -169px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+.address-para p{
+
+    font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 20.58px;
+text-align: center;
+
+}
+.book{
+    width: 100%;
+    
+height: 50px;
+top: 308.83px;
+display: flex;
+justify-content: center;
+align-items: end;
+
+
+}
+.book button{
+    width: 213px;
+height: 36px;
+top: 308.83px;
+background: rgba(29, 29, 31, 1);
+font-family: Inter;
+font-size: 12.73px;
+font-weight: 500;
+line-height: 15.41px;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+
+
+}
+.scroll{
+    display: none;
+}
+@media(max-width:1200px){
+    .box1{
+        width: 95%;
+      
+        
+    }
+   
+    .cards1{
+        width: 100%;
+        overflow-x: scroll;
+        
+    }
+    .ticket-box{
+        width: 100%;
+        
+    }
+    .ticket-container{
+        width: 95%;
+
+    }
+    
+    .ticket-card{
+        width: 100%;
+       
+    }
+          
+} 
+
+@media(max-width:950px){
+    .tikets{
+        position: relative;
+    }
+    #scroll-right{
+        position: absolute;
+        top: 50%;
+        right: 1%;
+        z-index: 10000;
+    }
+    #scroll-left{
+        position: absolute;
+        top: 50%;
+        left: 1%;
+        z-index: 10000;
+    }
+}
+             @media(max-width:860px){
+                .tikets{
+                    width: 800px;
+                    position: relative;
+                 
+                }
+                #scroll-right{
+                    position: absolute;
+                    top: 50%;
+                    left: 80%;
+                    z-index: 10000;
+                }
+                #scroll-left{
+                    position: absolute;
+                    top: 50%;
+                    left: 20%;
+                    z-index: 10000;
+                }
+                
+               
+             }
+             @media(max-width:770px){
+                .tikets{
+                    width: 790px;
+                    position: relative;
+                 
+                }
+             }
+ 
+@media (max-width :650px){
+   
+   
+    .ticket-box{
+        height: 1258px;
+    }
+    .effects{
+     width: 15%;
+    }
+    .box1{
+        width: 95%;
+      
+        
+    }
+    .cards1{
+        width: 100%;
+        overflow-x: scroll;
+   
+            }
+            #scroll-left{
+        display: none;
+            }
+            #scroll-right{
+             display: none;
+            }
+ .scroll{
+        display: flex;
+             width: 100%;
+             height: 100%;
+       
+             position: absolute;
+ 
+       z-index: 800;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       }
+    
+       .scroll-in{
+        width: 50%;
+        height: 49px;
+      display: flex;
+      position: relative;
+       }
+       .ticket-items{
+        width: 100%;
+       
+       
+    }
+    .ticket-card{
+        width: 100%;
+    
+    }
+#cards{
+    margin-left: 12.5px;
+}
+    
+   
+    .tikets{
+        width: 280px;
+overflow: hidden;
+transition: 0.5s;
+z-index: 1000;
+    }
+    #left{
+        float: left;
+        position: absolute;
+        left: 0;
+        cursor: pointer;
+        
+    }
+    #right{
+        float: right;
+        position: absolute;
+       right: 0;
+        cursor: pointer;
+       
+    }
+    .ticket-card{
+        width: 100%;
+    
+    }
+    .ticket-box{
+        width: 100%;
+    }
+ }
+
+@media (max-width :650px){
+    .ticket-box{
+        height: 1158px;
+    }
+    #cards2{
+        margin-left: 12.5px;
+    }
+    .scroll-in{
+        width: 50%;
+        height: 49px;
+      display: flex;
+      position: relative;
+       }
+    .scroll{
+        display: flex;
+             width: 100%;
+             height: 100%;
+       
+             position: absolute;
+ 
+       z-index: 800;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       }
+    
+       .scroll-in{
+        width: 90%;
+        height: 49px;
+      display: flex;
+      position: relative;
+       }
+    
+    
+    #left{
+        float: left;
+        position: absolute;
+        left: 0;
+    }
+    #right{
+        float: right;
+        position: absolute;
+       right: 0;
+    }
+    .ticket-card{
+        width: 100%;
+        
+    }
+    .ticket-box{
+        width: 100%;
+    }
+    
+   
+   .effects{
+    width: 15%;
+   }
+}
+@media(max-width:500px){
+    .tiket-header{
+      
+        width: 100%;
+    }
+       .tiket-header p{
+       font-size:30px ;
+    }
+   
+    .tiket-sub{
+        width: 100%;
+    }
+    .tiket-sub p{
+        font-size:10px;
+        width: 100%;
+       
+     line-height: 15px;
+    }
+}
+@media(max-width:300px){
+    .tikets{
+        width: 280px;
+overflow: hidden;
+transition: 0.5s;
+z-index: 1000;
+
+    }
+    .tiket-header{
+      
+        width: 100%;
+    }
+       .tiket-header p{
+       font-size:25px ;
+    }
+   
+    .tiket-sub{
+        width: 100%;
+    }
+    .tiket-sub p{
+        font-size:8px;
+        width: 100%;
+       
+     line-height: 13px;
+    }
+    .scroll{
+        display: flex;
+             width: 100%;
+             height: 100%;
+       
+             position: absolute;
+ 
+       z-index: 1800;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       }
+       #scroll-left{
+        display: none;
+            }
+            #scroll-right{
+             display: none;
+            }
+           
+           #cards{
+            margin-left: 7px;
+           }    
+    
+}
