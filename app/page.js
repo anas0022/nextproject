@@ -2,7 +2,7 @@
 import Head from 'next/head';
 import Script from 'next/script';
 
-export default function home() {
+export default function Home() { 
   var indexvalue = 1;
   showingImg(indexvalue);
   
@@ -10,20 +10,20 @@ export default function home() {
       showingImg(indexvalue += e);
   }
   
+  
   function showingImg(e) {
-      var i;
-      const img = document.querySelectorAll('.ticket-card1');
-      if (e > img.length || e < 1) {
-          indexvalue = 1;
-      }
-      for (i = 0; i < img.length; i++) {
-          img[i].style.display = "none";
-      }
-      if (img[indexvalue - 1]) { 
-          img[indexvalue - 1].style.display = "block";
-      }
-  }
-
+    var i;
+    const img = document.querySelectorAll('.ticket-card1');
+    if (e > img.length || e < 1) {
+        indexvalue = 1;
+    }
+    for (i = 0; i < img.length; i++) {
+        img[i].style.display = "none";
+    }
+    if (img[indexvalue - 1]) { 
+        img[indexvalue - 1].style.display = "block";
+    }
+}
 {/* sun */}
 function sun() {
   var allItems = document.getElementsByClassName('all-items');
