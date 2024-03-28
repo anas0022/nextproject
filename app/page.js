@@ -2,7 +2,7 @@
 import Head from 'next/head';
 import Script from 'next/script';
 
-export default function Home() { 
+export default function Home() { // Renamed 'home' to 'Home' for proper naming conventions
   var indexvalue = 1;
   showingImg(indexvalue);
   
